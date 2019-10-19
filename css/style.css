@@ -1,0 +1,284 @@
+/*
+    DEMO STYLE
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background: #97570f;
+    text-align: justify;
+    font-size: .55rem;
+}
+
+.mamelo{
+    display:none;
+}
+
+h1{
+    font-size: 2rem;
+} 
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3, h4, h5{
+    font-size: .5rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(255, 255, 255);
+}
+
+a,
+a:focus {
+    color: rgb(250, 104, 19);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+    background-color: #FFF;
+    color: rgb(241, 130, 26);
+    border-radius: .25rem;
+}
+
+
+.navbar {
+    padding: 15px 10px;
+    background: rgb(252, 185, 123);
+    border: none;
+    border-radius: .5rem;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px rgb(250, 104, 19);
+    box-shadow: .125rem .125rem .3125rem rgb(250, 104, 19);
+    opacity: .9;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.allvh{
+	min-height: 10vh;
+
+}
+
+.card {
+    margin: 0 auto;
+}
+
+
+    .carousel-caption {
+      padding: 0;
+      right: 0;
+      left: 0;
+      color: #000;
+    }
+    .col-sm-9 {
+        text-align: left;
+      }
+
+    .col-sm-3 {
+        display: flex;
+        align-items: center;
+      }
+
+    .carousel-control-prev, .carousel-control-next {
+      opacity: 1!important;
+    }
+
+
+    .img1{
+        display: none;
+    }
+    .mm{
+        margin-bottom:1.4rem;
+    }
+
+
+
+@media (min-width: 48em){
+    body {
+        font-family: 'Saira Semi Condensed', sans-serif;
+        background-color: #d69431c0;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    } 
+    
+    h2{
+        font-size: 1.75rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+    
+    h4, h5{
+        font-size: .5rem;
+    }
+    
+    p {
+        font-family: 'Saira Semi Condensed', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 1.7em;
+        color: rgb(49, 49, 49);
+    }
+
+    .alv1{
+        display:none;
+    }
+    
+    a,
+    a:focus {
+        color: rgb(250, 104, 19);
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    a:hover{
+        background-color: #FFF;
+        color: rgb(241, 130, 26);
+        border-radius: .25rem;
+    }
+    
+    .navbar {
+        padding: 15px 10px;
+        background: rgb(252, 185, 123);
+        border: none;
+        border-radius: .5rem;
+        margin-bottom: 40px;
+        box-shadow: 2px 2px 5px rgb(250, 104, 19);
+        box-shadow: .125rem .125rem .3125rem rgb(250, 104, 19);
+        opacity: .9;
+    }
+    
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+    }
+    
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
+
+    .mamelo{
+        display:block;
+    }
+
+    #content {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .allvh{
+        min-height: 10vh;
+    
+    }
+
+    .articulo1{
+        background-color: aquamarine; 
+    }
+
+    .bg-otro{
+        background: rgb(252, 185, 123); 
+    }
+    .bg-otro1{
+        background: rgb(175, 112, 53); 
+    }
+
+    .alv{
+        color: rgb(250, 104, 19);
+    }
+
+    .card {
+        margin-top:.25rem;
+    }
+    
+        .carousel-caption {
+          padding: 0;
+          right: 0;
+          left: 0;
+          color: #000;
+        }
+        .col-sm-9 {
+            text-align: left;
+          }
+    
+        .col-sm-3 {
+            display: flex;
+            align-items: center;
+          }
+    
+
+        .img2{
+            height:90%; width: 90%;
+            display: block;
+        }
+
+
+    
+
+}
+
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.articulo1{
+    background-color: rgb(55, 201, 238);   
+    color: #FFF;     
+}
+
+.alv{
+    color: rgb(250, 104, 19);    
+}
+
+.bg-otro{
+    background: rgb(252, 185, 123); 
+}
+
+.bg-otro1{
+    background: rgb(175, 112, 53); 
+}
+
+
